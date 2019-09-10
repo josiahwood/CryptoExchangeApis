@@ -18,12 +18,7 @@ steps:
     versionSpec: '3.6'
 
 - script: |
-   python -m pip install --upgrade pip setuptools wheel
+   pip install --upgrade pip setuptools wheel
    pip install -r requirements.txt
-   mkdocs new .
-   git config --global user.email "jnwood@gmail.com"
-   git config --global user.name "Josiah Wood"
-   git add .
-   git commit -m "New mkdocs project"
-   git push origin HEAD:master
+   mkdocs gh-deploy
   displayName: Install the MkDocs + do a build
