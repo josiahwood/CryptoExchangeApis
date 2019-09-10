@@ -17,5 +17,5 @@ steps:
 - script: |
    python -m pip install --upgrade pip setuptools wheel
    pip install -r requirements.txt
-   mkdocs gh-deploy  
+   mkdocs new .
   displayName: Install the MkDocs + do a build
