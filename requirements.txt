@@ -1,3 +1,4 @@
+wheel
 mkdocs>=1
 mkdocs-minify-plugin>=0.2
 Pygments>=2.2
