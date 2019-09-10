@@ -22,5 +22,5 @@ steps:
    git config --global user.name "Josiah Wood"
    git add .
    git commit -m "New mkdocs project"
-   git push origin
+   git push origin HEAD:master
   displayName: Install the MkDocs + do a build
