@@ -2,3 +2,6 @@ site_name: CryptoExchangeApis
 
 theme:
   name: 'material'
+
+nav:
+    - Home: index.md
