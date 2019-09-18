@@ -4,7 +4,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
-- master
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - azure-pipelines-nuget.yml
+    - CryptoExchangeApis/*
 
 pool:
   vmImage: 'windows-latest'
